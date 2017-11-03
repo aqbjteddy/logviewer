@@ -14,7 +14,6 @@ var fs = require('fs'); // file system module
 var app = express();
 var server = http.createServer(app);
 var io = require('socket.io').listen(server);
-var file = require('file');
 
 var tail = [];
 
